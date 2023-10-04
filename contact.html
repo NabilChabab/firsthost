@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+		<a href="#" class="logo">LOGO</a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+
+		<ul class="navbar">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="tours.html">Tours</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</header>
+
+	<!--Home section--->
+	<section class="contact">
+		<div class="news-text">
+			<h2>Contact us</h2>
+			<p>Send Message <br> We Will Able To you Any Time</p>
+			<div class="social_mediaic">
+				<a href=""><i class='bx bxl-meta'></i></a>
+				<a href=""><i class='bx bxl-instagram' ></i></a>
+				<a href=""><i class='bx bxl-linkedin' ></i></a>
+				<a href=""><i class='bx bxl-whatsapp' ></i></a>
+			</div>
+            <a href="about.html" type="submit">More Info<i class='bx bx-chevron-right'></i></a>
+		</div>
+
+		<div class="send">
+			<form action="https://formspree.io/f/mdorppkv" method="POST">
+				<div class="forms" id="contact-form">
+                    <input type="text" placeholder="FullName" id="contact-name" name="name" required>
+				    <input type="email" placeholder="Email" id="contact-email" name="email" required>
+                </div>
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Write Your Message" id="contact-project" required></textarea>
+			</form>
+			<p class="contact__message padd-15" id="contact-message"></p>
+            <button type="submit">Send</button>
+		</div>
+	</section>
+</body>
+</html>
